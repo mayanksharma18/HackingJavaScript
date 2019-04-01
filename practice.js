@@ -1,24 +1,21 @@
-// function check(n){
-// var a=(+n);
 
-//     if(isNaN(a)){
-//         console.log("This is a alphabet")
-     
-//     }
-//     else{
-//         console.log("Is a number")
-//     }
-    
-//     }
-//     check("9")
-//     check("as");
-function prime(n){
-    if(n==0){
-      return "prime";
-    }
-    else if(n==1){
-      return "not prime"
-    }
-    return prime(n-2);
+var a=[[1,2,3],[4,5,6],[7,8,9]]
+var b=[[1,2,30],[4,5,6],[7,8,9]]
+var k=[a]
+ function add(a,b){
+if(a.length==b.length && a[0].length==b[0].length){
+ console.log("Matrices can be added"); 
+for(i=0;i<a.length;i++){
+  for(j=0;j<a[i].length;j++){
+   k[i][j]=a[i][j]+b[i][j];
   }
-  prime(10)
+}
+}
+else{
+ console.log("Matrices cannot be added")
+}
+console.log(a);
+console.log(b);
+return k
+ }
+ add(a,b)
