@@ -1,6 +1,6 @@
 
 //Check number is prime or not
-//try find a whole number nearly greater than the square root of give input.
+//try find a whole number nearly  than the square root of give input.
 // p is square root(n).Check whether n is divisible by any number less than p. 
 function prime(n){
     var p=Math.floor((Math.sqrt(n)));
