@@ -1,13 +1,13 @@
 //Check with subtracting -2 to achieve base conditions using Recursions
-function prime(n){
+function even(n){
     if(n==0){
-        return "prime";
+        return "even";
       }
       else if(n==1){
-        return "not prime"
+        return "odd"
       }
-      return prime(n-2);
+      return even(n-2);
     }
-    prime(n);
+    console.log(even(0));
 
     

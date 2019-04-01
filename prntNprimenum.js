@@ -1,7 +1,6 @@
 //Check prime
 //by definition prime number is greater than 1 and it is completely divisible by itself.
 //1 is not a prime either composite
-
 function prime(N){
 if(N==0||N==1){
     return N+" "+"Is not Prime"
@@ -18,4 +17,7 @@ function print(X){
      console.log(prime(j));
  }    
 }
-print(20)
+print(100)
+
+
+    

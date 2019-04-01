@@ -9,5 +9,9 @@ function check(n){
         }
         
         }
-        check(12)
-        check("a");
+        check("12")  //if number is in string format then,unary operator converts it into number
+       
+
+
+//By Regular Expression it can also be done
+
