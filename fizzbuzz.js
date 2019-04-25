@@ -11,6 +11,7 @@ N--
 }
 }
 fizz(100)
+
 //With for loop
 function Buzz(N){
     for(i=0;i<=N;i++){
